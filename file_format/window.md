@@ -9,7 +9,7 @@ The root of an application, is, obviously, the window.
         <!-- content of window here -->
 </window>
 ```
-The window format consists of 5 properties:
+The window format consists of 6 properties:
 1. <code>windowTitle</code>: This is the title of the window when activated.
 ```xml
 <property name="windowTitle">
@@ -24,8 +24,8 @@ The window format consists of 5 properties:
 ```
 3. <code>height</code>: The height of the window.
 ```xml
-<property name="icon">
-    <value content="icons/homeWindow.svg">
+<property name="height">
+    <value content="400">
 </property>
 ```
 4. <code>defaultWindow</code>: If this is the default window and it starts up when you run the app.
@@ -39,4 +39,10 @@ The window format consists of 5 properties:
 <property name="parentWindow">
     <value content="True">
 </property>
-```a
+```
+6. <code>icon</code>: The icon of the window.
+```xml
+<property name="icon">
+    <value content="icons/main_window_icon.svg">
+</property>
+```
