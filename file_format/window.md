@@ -34,7 +34,7 @@ The window format consists of 6 properties:
     <value content="True">
 </property>
 ```
-5. <code>parentWindow</code>: That if the window is deleted, all the other child windows of the application do to. ***<i>Note: If defaultWindow is True, then this has to be true.</i>***
+5. <code>parentWindow</code>: That if the window is deleted, all the other child windows of the application do to. ***<h4><i>Note: If defaultWindow is True, then this has to be true.</i></h4>***
 ```xml
 <property name="parentWindow">
     <value content="True">
