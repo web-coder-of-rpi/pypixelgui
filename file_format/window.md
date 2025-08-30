@@ -7,9 +7,10 @@ The root of an application, is, obviously, the window.
     </property>
     <content>
         <!-- content of window here -->
+    </content>
 </window>
 ```
-The window format consists of 6 properties:
+The window format consists of 7 properties:
 1. <code>windowTitle</code>: This is the title of the window when activated.
 ```xml
 <property name="windowTitle">
@@ -44,5 +45,11 @@ The window format consists of 6 properties:
 ```xml
 <property name="icon">
     <value content="icons/main_window_icon.svg">
+</property>
+```
+7. <code>name</code>: The ID of the window.
+```xml
+<property name="name">
+    <value content="mywindow">
 </property>
 ```
