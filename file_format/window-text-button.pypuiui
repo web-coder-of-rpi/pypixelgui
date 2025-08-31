@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pypui version="1.0">
+    <window>
+        <properties>
+            <property name="name">
+                <value content="myWindow">
+            </property>
+            <property name="windowTitle">
+                <value content="My Window">
+            </property>
+            <property name="height">
+                <value content="400">
+            </property>
+            <property name="width">
+                <value content="300">
+            </property>
+            <property name="parentWindow">
+                <value content="true">
+            </property>
+            <property name="defaultWindow">
+                <content name="{{_blank_}}">
+            <property name="icon">
+                <value content="&gt;images&gt;window_icons&gt;pypui_window_icon.png">
+            </property>
+        </properties>
+        <content>
+            <button>
+                <properties>
+                    <property name="name">
+                        <value content="helloWorldLabel">
+                    </property>
+                    <property name="action">
+                        <value content="say_hello()">
+                    </property>
+                    <property name="label">
+                        <value content="Click me!">
+                    </property>
+                    <property name="width">
+                        <value content="20">
+                    </property>
+                    <property name="height">
+                        <value content="10">
+                    </property>
+                    <property name="x">
+                        <value content="150">
+                    </property>
+                    <property name="y">
+                        <value content="200">
+                    </property>
+                    <property name="style">
+                        <value content="primary">
+                    </property>
+                </properties>
+            </button>
+            <textbox>
+                <properties>
+                    <property name="name">
+                        <value content="helloBox">
+                    </property>
+                    <property name="renderType">
+                        <value content="{{_none_}}">
+                    </property>
+                    <property name="content">
+                        <value content="">
+                    </property>
+                    <property name="x">
+                        <value content="150">
+                    </property>
+                    <property name="y">
+                        <value content="215">
+                    </property>
+                    <property name="width">
+                        <value content="100">
+                    </property>
+                    <property name="height">
+                        <value content="20">
+                    </property>
+                    <property name="style">
+                        <value content="primary">
+                    </property>
+                </properties>
+            </textbox>
+        </content>
+    </window>
+</pypui>
