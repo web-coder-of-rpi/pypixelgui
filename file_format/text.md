@@ -6,6 +6,7 @@ About every application uses non-interactive text boxes.
         <!-- Properties here -->
     </properties>
     <!-- No content tag -->
+</textbox>
 The textbox has 3 properties:
 1. <code>name</code>: The ID of the textbox; so it can be accessed in code.
 ```xml
