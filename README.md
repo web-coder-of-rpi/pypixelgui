@@ -1,2 +1,2 @@
-# pypixelui
-A Python-Powered UI engine
+# pypixelui-docs
+The docs for PyPixel UI
