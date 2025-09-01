@@ -1,6 +1,6 @@
 #include "var";
 #include "setting";
-setting("ui_file", "window-text-button.pypuist", "ui");
+setting("ui_file", "window-text-button.pypuist", "ui", "false");
 var.int("buttonPress") = "0"; // Variable to track how many times the button was pressed
 main(){
     ui.window.helloBox.content = "";
